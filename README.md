@@ -37,7 +37,7 @@ You can simply open `index.html` in a browser or use Live Server in VS Code.
 ---
 
 ### **2️⃣ How to Customize Your Partner's Name**
-By default, the app displays the name `JILLIAN`. You can change it in `main.js`:
+By default, the app displays the name `CERDELLA`. You can change it in `main.js`:
 
 #### **Steps to edit:**
 1. Open `main.js` in a text editor.
