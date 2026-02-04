@@ -37,17 +37,17 @@ You can simply open `index.html` in a browser or use Live Server in VS Code.
 ---
 
 ### **2️⃣ How to Customize Your Partner's Name**
-By default, the app displays the name `JILLIAN`. You can change it in `main.js`:
+By default, the app displays the name `BABY`. You can change it in `main.js`:
 
 #### **Steps to edit:**
 1. Open `main.js` in a text editor.
 2. Find the following line:
    ```js
-   let partnerName = "JILLIAN"; // Replace with your partner's name
+   let partnerName = "BABY"; // Replace with your partner's name
    ```
-3. Change `JILLIAN` to your partner’s name, like this:
+3. Change `BABY` to your partner’s name, like this:
    ```js
-   let partnerName = "ALEX";
+   let partnerName = "BABY";
    ```
 4. Save the file and refresh the page to see the update.
 
