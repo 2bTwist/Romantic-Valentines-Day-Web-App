@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const yesButton = document.querySelector(".choice-box button:first-child");
     const noButton = document.querySelector(".choice-box button:last-child");
 
-    let partnerName = "JILLIAN"; // Replace with dynamic value
+    let partnerName = "PIYU"; // ✅ Updated name
     let noClickCount = 0; // Counter for No button clicks
 
     // Function to create typewriter effect
@@ -56,24 +56,24 @@ document.addEventListener("DOMContentLoaded", function () {
         const heartContainer = document.createElement("div");
         heartContainer.classList.add("heart-container");
         document.body.appendChild(heartContainer);
-    
+
         for (let i = 0; i < 30; i++) {
             let heart = document.createElement("div");
             heart.classList.add("heart");
-            
+
             // Random positioning and animation speed
             heart.style.left = Math.random() * 100 + "vw";
             heart.style.animationDuration = Math.random() * 2 + 3 + "s";
-            
+
             heartContainer.appendChild(heart);
         }
-    
+
         // Remove hearts after animation ends
         setTimeout(() => {
             heartContainer.remove();
         }, 5000);
     }
-    
+
     yesButton.addEventListener("click", function () {
         questionText.innerHTML = `<span class="partner-name">${partnerName}</span><br><span class="love-text">I love you baby ❤️</span>`;
         choiceBox.style.display = "none"; // Hide choices
@@ -82,7 +82,7 @@ document.addEventListener("DOMContentLoaded", function () {
         createHearts();
     });
 
-      // Handle "No" button click
+    // Handle "No" button click
     noButton.addEventListener("click", function () {
         noClickCount++; // Increment No click count
 
