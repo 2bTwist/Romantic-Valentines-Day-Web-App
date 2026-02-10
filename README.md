@@ -9,11 +9,7 @@ A fun, interactive web app with a **glassmorphism** aesthetic, designed to send 
 ✅ **Interactive buttons** that resize dynamically  
 ✅ **3D effects** for a visually immersive experience  
 ✅ **Personalized message** with a typewriter effect  
-✅ **Mobile-friendly & responsive design**  
-
-## 🚀 Live Demo
-
-<img src='/assets/Walkthrough.gif' title='Video Walkthrough' width='500px' alt='Video Walkthrough' />
+✅ **Mobile-friendly & responsive design**
 
 Once deployed, access your live project at:
 ```
@@ -37,17 +33,17 @@ You can simply open `index.html` in a browser or use Live Server in VS Code.
 ---
 
 ### **2️⃣ How to Customize Your Partner's Name**
-By default, the app displays the name `JILLIAN`. You can change it in `main.js`:
+By default, the app displays the name `Uma`. You can change it in `main.js`:
 
 #### **Steps to edit:**
 1. Open `main.js` in a text editor.
 2. Find the following line:
    ```js
-   let partnerName = "JILLIAN"; // Replace with your partner's name
+   let partnerName = "Uma"; // Replace with your partner's name
    ```
-3. Change `JILLIAN` to your partner’s name, like this:
+3. Change `Uma` to your partner’s name, like this:
    ```js
-   let partnerName = "ALEX";
+   let partnerName = "Om";
    ```
 4. Save the file and refresh the page to see the update.
 
